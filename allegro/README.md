@@ -6,7 +6,7 @@ This is complimentary to Moses Guttmann presentation on 10/08/2020 on the MLOps 
 
 ## Class How To
 
-* Find your key at ./student_keys.json
+* Find your password at ./student_keys.json (your username is your UofC LDAP username).
 * https://app.uchicago.hosted.allegro.ai/
 ..* Accept the EULA
 * Click top right
