@@ -45,3 +45,17 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 * How to install on windows?
 * How to install on mac?
 * What are the basic functions on your local server?
+
+## Data Pre Processing
+
+* Splitting the train / validation dataset. What are the considerations we want to make our model as good as it can be?
+
+## Training 
+
+* Train.. Train.. Train.. 
+* PyTorch is awesome right?
+
+## Inference 
+
+* Which data do we use?
+* Which metric do we use for assessing quality?
