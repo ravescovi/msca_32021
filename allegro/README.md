@@ -1,23 +1,26 @@
-# msca_32021
-# Allegro how tos
+# Allegro 
+
+This is complimentary to Moses Guttmann presentation on 10/08/2020 on the MLOps class.
 
 
 
+## Class How To
 
-## How to
+* Find your key at ./student_keys.json
+* https://app.uchicago.hosted.allegro.ai/
+..* Accept the EULA
+* Click top right
+..* Create New Credentials
+* Run:  
+```bash
+pip install -U --extra-index-url https://shared:HF6w0RbukY@allegroai.jfrog.io/allegroai/api/pypi/public/simple allegroai
+allegroai-init
 
-- Find your key at ./student_keys.json
-- https://app.uchicago.hosted.allegro.ai/
-- - Accept the EULA
-- Click top right
-- - Create New Credentials
-- Run 
+pip install -U trains-agent
+trains-agent init
+```
 
-- -  pip install -U --extra-index-url https://shared:HF6w0RbukY@allegroai.jfrog.io/allegroai/api/pypi/public/simple allegroai
-- - allegroai-init
 
-- - pip install -U trains-agent
-- - trains-agent init
 
 ## Getting Started
 This is the allegro how-to. You will only be able to see it after logging in.
@@ -26,7 +29,9 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 
 ## Questions?
 
-- what is allegro?
-- How to install on windows?
-- How to install on mac?
-- what are the basic functions on your local server?
+* What is allegro?
+* How to install on windows?
+* How to install on mac?
+* What are the basic functions on your local server?
+
+:wq
