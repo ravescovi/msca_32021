@@ -52,6 +52,8 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 
 * Splitting the train / validation dataset. What are the considerations we want to make our model as good as it can be?
 
+* Publishing <<>> Commiting. It does lock the state of the data and recquire the user to 
+
 ## Training 
 
 * Train.. Train.. Train.. 
@@ -61,3 +63,5 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 
 * Which data do we use?
 * Which metric do we use for assessing quality?
+
+## Automation
