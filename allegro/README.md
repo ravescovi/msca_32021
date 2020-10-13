@@ -58,6 +58,8 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 2.1. Is the public KITTI dataset on the system already?
 
 3. Change "detect.py" script to run over the "Test dataset" and produce visualization of the detections.
+3.1  Is this the only file that we are supposed to have to change?  Because I'm getting errors related to other files--main, parse_model_config.  Is fixing those issues part of the assignment? 
+3.2  Do we need to change the weights as well?   
 
 4. Register back the detection and create a new version of the test dataset, with the automatic detections as annotations.
 
@@ -80,6 +82,7 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 
 * Train.. Train.. Train.. 
 * PyTorch is awesome right?
+Well, I was trained on tensorflow for ML, so not sold yet.  But if anyone else wants the result of my Google search, here's a comparison:  https://realpython.com/pytorch-vs-tensorflow/
 
 ## Inference 
 
