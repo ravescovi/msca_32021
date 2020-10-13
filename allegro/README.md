@@ -32,6 +32,7 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 2. Fork of the original "YOLO KITTI-2d-object-detection":
 `https://github.com/alguchg/KITTI-2d-object-detection`
 2.1. Is the public KITTI dataset on the system already?
+(remember to clone only the allegro branch to your local directory; you can use the following command: git clone -b allegroai https://github.com/YOURUSERNAMEHERE/KITTI-2d-object-detection.git)
 
 3. Change "detect.py" script to run over the "Test dataset" and produce visualization of the detections.
 3.1  Is this the only file that we are supposed to have to change?  Because I'm getting errors related to other files--main, parse_model_config.  Is fixing those issues part of the assignment? 
