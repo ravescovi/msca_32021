@@ -25,4 +25,7 @@ MLOps@Graham
 8) Clicking the Compare & pull request button
 9) Clicking create pull request to open a new pull request
 
-###
+### Contributors
+- ravescovi
+- collela2
+- cdballou
