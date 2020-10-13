@@ -61,6 +61,9 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 * PyTorch is awesome right?
 Well, I was trained on tensorflow for ML, so not sold yet.  But if anyone else wants the result of my Google search, here's a comparison:  https://realpython.com/pytorch-vs-tensorflow/
 
+model here 
+https://drive.google.com/file/d/1fgQz3tfG1HbRvTvSc7JLi8NHnJcMZNlM/view?usp=sharing
+
 ## Inference 
 
 * Which data do we use?
