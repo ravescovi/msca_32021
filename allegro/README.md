@@ -37,7 +37,6 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 
 3. Change "detect.py" script to run over the "Test dataset" and produce visualization of the detections.
 * Is it already done with this code?:
-   # Allegro.ai dataview
     dataview = DataView()
     dataview.add_query(dataset_name='KITTI 2D', version_name='testing')
     singleframe_list = dataview.to_list()
