@@ -36,6 +36,8 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 2.1. Is the public KITTI dataset on the system already?
 
 3. Change "detect.py" script to run over the "Test dataset" and produce visualization of the detections.
+* Where do we add test images?
+
 
 4. Register back the detection and create a new version of the test dataset, with the automatic detections as annotations.
 
@@ -47,6 +49,7 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 * How to install on windows?
 * How to install on mac?
 * What are the basic functions on your local server?
+
 
 ## Data Pre Processing
 
