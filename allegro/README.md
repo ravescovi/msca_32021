@@ -36,12 +36,21 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 2.1. Is the public KITTI dataset on the system already?
 
 3. Change "detect.py" script to run over the "Test dataset" and produce visualization of the detections.
-* Where do we add test images?
+* Is it already done with this code?:
+   # Allegro.ai dataview
+    dataview = DataView()
+    dataview.add_query(dataset_name='KITTI 2D', version_name='testing')
+    singleframe_list = dataview.to_list()
 
 
 4. Register back the detection and create a new version of the test dataset, with the automatic detections as annotations.
+* Allegro UI > Datasets > Kitti2D > testing > '+CREATE NEW VERSION'... Is this how we do it? 
+
 
 5. Apply that on a picture from your cellphone =)
+* Where do we add test images? I see an option to create a new dataset on Allgro web UI, but not to actually add any photos
+
+
 
 ## Questions?
 
