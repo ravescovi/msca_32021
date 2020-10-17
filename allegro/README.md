@@ -21,7 +21,7 @@ Students should fork & clone this repository by:
     - Do this by the following command: git remote add upstream [link to Rafael's original repository]
 6) Making your changes
 7) Pushing it to your repository
-8) Clicking the Compare & pull request button
+8) Clicking the Compare & pull request button (this will be present on Rafael's version of the repo)
 9) Clicking create pull request to open a new pull request
 
 
