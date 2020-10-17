@@ -65,7 +65,7 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
         pip install -r requirements.txt
 
 3. Change "detect.py" script to run over the "Test dataset" and produce visualization of the detections.
-    - Note: latest version of script leverages a batch_size of 2; during training you will also see at "data size" of 5; in combination, this should produce 10 output images
+    - Note: latest version of script leverages a batch_size of 2; during training, you will also see a "data size" of 5; in combination, this should produce 10 output images
 
 4. Register back the detection and create a new version of the test dataset, with the automatic detections as annotations.
 
