@@ -52,6 +52,7 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 4. Register back the detection and create a new version of the test dataset, with the automatic detections as annotations.
 
 5. Apply that on a picture from your cellphone =)
+*does this need to be uploaded back to allegro?
 
 ## Questions?
 
