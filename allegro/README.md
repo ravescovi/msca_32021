@@ -1,6 +1,3 @@
-# Allegro 
-
-This is complimentary to Moses Guttmann presentation on 10/08/2020 on the MLOps class.
 
 Students should fork & clone this repository by:
 1) Navigating to Rafael's msca_32021 repository 
@@ -25,15 +22,15 @@ Students should fork & clone this repository by:
 9) Clicking create pull request to open a new pull request
 
 
+* Find your password at `student_keys` file 
+* Your username is your UofC username.
+* Log in into https://app.uchicago.hosted.allegro.ai/
+    * Accept the EULA
+    * Click top right
+    * Create New Credentials
+* Create a new conda environment with the basic libraries you normally use.
+* Run:  
 
-## Class How To
-
-* Find your password at ./student_keys.json (your username is your UofC LDAP username).
-* https://app.uchicago.hosted.allegro.ai/
-..* Accept the EULA
-* Click top right
-..* Create New Credentials
-* Run the first pip for installing and configuring the Allegro AI SDK (Software Development Kit) & the second for installing and configuring the Execution Agent
 ```bash
 pip install -U --extra-index-url https://shared:HF6w0RbukY@allegroai.jfrog.io/allegroai/api/pypi/public/simple allegroai
 allegroai-init
@@ -67,9 +64,19 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 3. Change "detect.py" script to run over the "Test dataset" and produce visualization of the detections.
     - Note: latest version of script leverages a batch_size of 2; during training, you will also see a "data size" of 5; in combination, this should produce 10 output images
 
+* Is it already done with this code?:
+    dataview = DataView()
+    dataview.add_query(dataset_name='KITTI 2D', version_name='testing')
+    singleframe_list = dataview.to_list()
+    
 4. Register back the detection and create a new version of the test dataset, with the automatic detections as annotations.
+* Allegro UI > Datasets > Kitti2D > testing > '+CREATE NEW VERSION'... Is this how we do it? 
+
 
 5. Apply that on a picture from your cellphone =)
+* Where do we add test images? I see an option to create a new dataset on Allgro web UI, but not to actually add any photos
+
+
 
 ## Questions?
 
@@ -77,6 +84,8 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 * How to install on windows?
 * How to install on mac?
 * What are the basic functions on your local server?
+* What is the Kitti2D dataset?
+
 
 ## Data Pre Processing
 
@@ -88,6 +97,10 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 
 * Train.. Train.. Train.. 
 * PyTorch is awesome right?
+Well, I was trained on tensorflow for ML, so not sold yet.  But if anyone else wants the result of my Google search, here's a comparison:  https://realpython.com/pytorch-vs-tensorflow/
+
+model here 
+https://drive.google.com/file/d/1fgQz3tfG1HbRvTvSc7JLi8NHnJcMZNlM/view?usp=sharing
 
 ## Inference 
 
