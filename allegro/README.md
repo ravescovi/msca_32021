@@ -2,16 +2,18 @@
 
 This is complimentary to Moses Guttmann presentation on 10/08/2020 on the MLOps class.
 
-
-
 ## Class How To
 
-* Find your password at ./student_keys.json (your username is your UofC LDAP username).
-* https://app.uchicago.hosted.allegro.ai/
-..* Accept the EULA
-* Click top right
-..* Create New Credentials
+
+* Find your password at `student_keys` file 
+* Your username is your UofC username.
+* Log in into https://app.uchicago.hosted.allegro.ai/
+    * Accept the EULA
+    * Click top right
+    * Create New Credentials
+* Create a new conda environment with the basic libraries you normally use.
 * Run:  
+
 ```bash
 pip install -U --extra-index-url https://shared:HF6w0RbukY@allegroai.jfrog.io/allegroai/api/pypi/public/simple allegroai
 allegroai-init
@@ -19,7 +21,7 @@ allegroai-init
 pip install -U trains-agent
 trains-agent init
 ```
-
+Additional installation/setup details and answers to common questions can be found at the link in the below "Getting Started" section.
 
 
 ## Getting Started
@@ -34,14 +36,15 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 2. Fork of the original "YOLO KITTI-2d-object-detection":
 `https://github.com/alguchg/KITTI-2d-object-detection`
 2.1. Is the public KITTI dataset on the system already?
+(remember to clone only the allegro branch to your local directory; you can use the following command: git clone -b allegroai https://github.com/YOURUSERNAMEHERE/KITTI-2d-object-detection.git)
 
 3. Change "detect.py" script to run over the "Test dataset" and produce visualization of the detections.
+
 * Is it already done with this code?:
     dataview = DataView()
     dataview.add_query(dataset_name='KITTI 2D', version_name='testing')
     singleframe_list = dataview.to_list()
-
-
+    
 4. Register back the detection and create a new version of the test dataset, with the automatic detections as annotations.
 * Allegro UI > Datasets > Kitti2D > testing > '+CREATE NEW VERSION'... Is this how we do it? 
 
@@ -57,6 +60,7 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 * How to install on windows?
 * How to install on mac?
 * What are the basic functions on your local server?
+* What is the Kitti2D dataset?
 
 
 ## Data Pre Processing
@@ -69,6 +73,10 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 
 * Train.. Train.. Train.. 
 * PyTorch is awesome right?
+Well, I was trained on tensorflow for ML, so not sold yet.  But if anyone else wants the result of my Google search, here's a comparison:  https://realpython.com/pytorch-vs-tensorflow/
+
+model here 
+https://drive.google.com/file/d/1fgQz3tfG1HbRvTvSc7JLi8NHnJcMZNlM/view?usp=sharing
 
 ## Inference 
 

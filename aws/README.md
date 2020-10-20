@@ -1,5 +1,12 @@
-# msca_32021
-MLOps@Graham
+
+# Amazon Web Services
+
+AWS
+
+
+* https://searchaws.techtarget.com/tip/Manually-spin-up-an-EC2-server-instance-in-7-steps   
+* https://medium.com/@nZenitram/spinning-up-an-ec2-instance-ef7e81044dc4
+* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
 
 Connecting to jupyter notebook
 
@@ -31,5 +38,4 @@ Connecting to jupyter notebook
   
 11. When you're done, make sure to stop the instance so you don't get charged. 
 *Go to your AWS instance>Actions>Stop or Terminate instance
-
 
