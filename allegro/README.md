@@ -4,7 +4,7 @@ This is complimentary to Moses Guttmann presentation on 10/08/2020 on the MLOps 
 
 ## Class How To
 
-<<<<<<< HEAD
+
 * Find your password at `student_keys` file 
 * Your username is your UofC username.
 * Log in into https://app.uchicago.hosted.allegro.ai/
@@ -13,14 +13,7 @@ This is complimentary to Moses Guttmann presentation on 10/08/2020 on the MLOps 
     * Create New Credentials
 * Create a new conda environment with the basic libraries you normally use.
 * Run:  
-=======
-* Find your password at ./student_keys.json (your username is your UofC LDAP username).
-* https://app.uchicago.hosted.allegro.ai/
-..* Accept the EULA
-* Click top right
-..* Create New Credentials
-* Run the first pip for installing and configuring the Allegro AI SDK (Software Development Kit) & the second for installing and configuring the Execution Agent
->>>>>>> 8a99aacfad0cea1be77b3b0a3182f662a31ff92b
+
 ```bash
 pip install -U --extra-index-url https://shared:HF6w0RbukY@allegroai.jfrog.io/allegroai/api/pypi/public/simple allegroai
 allegroai-init
@@ -46,12 +39,20 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 (remember to clone only the allegro branch to your local directory; you can use the following command: git clone -b allegroai https://github.com/YOURUSERNAMEHERE/KITTI-2d-object-detection.git)
 
 3. Change "detect.py" script to run over the "Test dataset" and produce visualization of the detections.
-3.1  Is this the only file that we are supposed to have to change?  Because I'm getting errors related to other files--main, parse_model_config.  Is fixing those issues part of the assignment? 
-3.2  Do we need to change the weights as well?   
 
+* Is it already done with this code?:
+    dataview = DataView()
+    dataview.add_query(dataset_name='KITTI 2D', version_name='testing')
+    singleframe_list = dataview.to_list()
+    
 4. Register back the detection and create a new version of the test dataset, with the automatic detections as annotations.
+* Allegro UI > Datasets > Kitti2D > testing > '+CREATE NEW VERSION'... Is this how we do it? 
+
 
 5. Apply that on a picture from your cellphone =)
+* Where do we add test images? I see an option to create a new dataset on Allgro web UI, but not to actually add any photos
+
+
 
 ## Questions?
 
@@ -60,6 +61,7 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 * How to install on mac?
 * What are the basic functions on your local server?
 * What is the Kitti2D dataset?
+
 
 ## Data Pre Processing
 
