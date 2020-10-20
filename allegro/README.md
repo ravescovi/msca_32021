@@ -74,9 +74,8 @@ https://app.uchicago.hosted.allegro.ai/docs/getting_started/getting_started_over
 
 
 5. Apply that on a picture from your cellphone =)
+*does this need to be uploaded back to allegro?
 * Where do we add test images? I see an option to create a new dataset on Allgro web UI, but not to actually add any photos
-
-
 
 ## Questions?
 
